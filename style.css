@@ -1,0 +1,199 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+
+/* Header content */
+img {
+  border-radius: 15%;
+  width: 100%;
+}
+.btn {
+  background-color: #A7C957;
+  font-family: 'Montserrat Alternates';
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+header {
+  background-color: #754668;
+  color: white;
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+  padding: 20px;
+}
+
+h1,h2, h3,h4, h5, h6 {
+  font-family: 'Poiret One', cursive;
+}
+h1 {
+  font-size: 40px;
+}
+ header nav {
+   display: flex;
+   justify-content:center;
+ }
+
+header nav ul {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+header nav ul li a {
+  font-family: 'Poiret One', cursive;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 20px 0 0;
+}
+header nav ul li:last-child a {
+  margin-right: 0px;
+}
+header nav a:link {
+  color: white;
+}
+header nav a:visited {
+  color: #4DA1A9;
+}
+
+header nav a:active {
+  color: #2A4D14;
+}
+
+
+
+/* main content */
+main section {
+  padding: 20px;
+}
+main a {
+  font-family: 'Montserrat Alternates';
+  font-size: 20px;
+}
+h2 {
+  font-size: 36px;
+  margin: 5px;
+  padding: 0px;
+}
+h3 {
+  font-size: 32px;
+  margin: 0px;
+  padding: 0px;
+}
+p, ul, ol {
+  font-family: 'Montserrat Alternates'; 
+  font-size: 24px;
+}
+.bg-green {
+  background-color: #D7E8BA;
+}
+.bg-gray {
+  background-color: #BAC3C0;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+.left {
+  text-align: left;
+}
+
+
+
+
+/* footer content */
+footer {
+  background-color:  #754668;
+  color: white;
+  font-family: 'Poiret One', cursive;
+  padding: 5px;
+}
+
+form label {
+  display: block;
+  font-family: 'Montserrat Alternates';
+  font-size: 18px;
+  
+}
+form textarea {
+  height: 160px;
+  color: black;
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: 100%
+}
+form input {
+  height: 25px;
+  margin-bottom: 20px;
+  width: 100%
+}
+
+
+/* flexboxes */
+.group {
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  flex: 1;
+  padding: 10px;
+}
+.item-double {
+  flex: 2;
+  padding: 10px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+/* link styling in main section */
+main a:link {
+  color: #4DA1A9;
+}
+main a:visited {
+  color: black;
+}
+
+main a:active {
+  color: salmon;
+}
+
+
+/* mobile first responsive development */
+@media all and (min-width: 600px){
+  /* link styling for desktop */
+header nav ul {
+  justify-content: space-between;
+}
+header a:hover {
+  color: #B58DB6;
+}
+
+main a:hover {
+  color: #B58DB6;
+}
+
+section {
+    padding: 0 10%;
+  }
+.group {
+    flex-direction: row;
+  }
+.img-padded {
+    padding-top: 100px;
+  }
+img {
+  width: 100%;
+}
+/* form label, form input, form textarea {
+    width: 50%;
+  } */
+}

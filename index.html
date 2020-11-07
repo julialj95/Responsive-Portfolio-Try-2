@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Julia Johnson | Responsive Webpage Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul id="menu">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#work">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+    </nav>
+    <div id="home">
+    <div>
+      <h1>Looking for a web developer?</h1>
+      <h3>Hello! My name is Julia. I'm a web developer living in Minneapolis, Minnesota.</h3>
+      <a href="#contact" class="btn">WORK WITH ME</a>
+    </div>
+    </div>
+  </header>
+
+  <main>
+  <section id="about" class="bg-gray">
+    <h2 class="center">About Julia</h2>  
+    <div class="group">
+      <div class="item">
+        <img class="img-padded" src="images/julia.jpg" alt="Picture of Julia"/>
+      </div>
+      <div class="item-double">
+        <p>I help clients bring their website and application ideas to fruition. In my previous career as a teacher, I developed strong communication and collaboration skills that will help me to thrive on a team with other programmers! </p>
+        <p>I am driven by an insatiable curiosity and desire to always keep learning. Coding allows me to learn new things every day!
+        <p>When I'm not busy learning cool, new programming skills, I love:</p>
+          <ul>
+            <li>Connecting with others through music (I play the guitar, fiddle and French Horn)</li>
+            <li>Reading good books</li>
+            <li>Taking advantage of Minnesota's four beautiful seasons by hiking, skiing and kayaking</li>
+          </ul>
+      <div class="group">
+        <div class="item">
+        <h3>Languages and Frameworks</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>React</li>
+          <li>Python</li>
+        </ul>
+        </div>
+        <div class="item">
+          <h3>Strengths</h3>
+            <ul>
+              <li>Communication</li>
+              <li>Language Aquisition</li>
+          <li>Attention to Detail</li>
+        </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- 3 project examples side by side in flexboxes (placeholders used because I don't have any projects yet) -->
+  <section id="work" class="bg-green">
+    <h2 class="center lg-text">Projects</h2>
+  <div class="group">
+    <div class="item">
+      <img src="images/bergen.jpg" alt="Bergen City View">
+      <h3 class="center">Project 1</h3>
+      <p>Project description Project description Project description Project description Project description Project description Project description Project description Project description Project description. </p>
+      <a href="https://www.google.com/" target="_blank">Filler link</a>
+    </div>
+    <div class="item">
+      <img src="images/tromso.jpg" alt="Tromso City View">
+      <h3 class="center">Project 2</h3>
+      <p> Project description Project description Project description Project description Project description Project description Project description Project description Project description Project description.   </p>
+      <a href="https://www.google.com/" target="_blank">Filler link</a>
+    </div>
+    <div class="item">
+      <img src="images/hiking.jpg" alt="Man hiking at Lifjell">
+      <h3 class="center">Project 3</h3>
+      <p> Project description Project description Project description Project description Project description Project description Project description Project description Project description Project description.  </p>
+      <a href="https://www.google.com/" target="_blank">Filler link</a>
+    </div>
+  </div>
+  </section>
+  <!-- section with contact information -->
+  <section id="contact" class="bg-gray">
+      <h3 class="center">Contact Me</h3>
+      <p class="center">Send me a message and I will respond within 24 hours. I look forward to hearing from you!</p>
+    <div class="group">
+      <div class="item">
+      <form action="https://formspree.io/julialj95@gmail.com"
+      method="post">
+      <label for="name"><b>Name</b></label>
+      <input id="name" type="text" name="name" required />
+
+      <label for="email"><b>Email address</b></label>
+      <input id="email" type="text" name="email" required/>
+
+      <label for="form-message"><b>Your message:</b></label>
+      <textarea id="form-message" name="message" placeholder="How can I help you?"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+      </div>
+      <div class="item">
+        <img src="images/mail.jpg" alt="Typing an Email">
+      </div>
+    </div>
+    <div class="group row">
+      <div class="item center">
+        <a href="https://www.linkedin.com/in/julia-johnson-40a77b108/" target="_blank">LinkedIn</a>
+      </div>
+      <div class="item center">
+        <a href="https://github.com/julialj95" target="_blank">Github</a>
+      </div>
+    </div>
+  </section>
+
+
+  </main>
+
+  <footer>
+    <h4 class="center">Property of Julia Johnson | Copyright 2020</h4>
+  </footer>
+
+
+
+</body>
+
+</html>
